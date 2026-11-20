@@ -1,0 +1,19 @@
+{
+  "name": "deriv-pro-digit-analyzer",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Demo-only Deriv volatility scanner, digit analyzer and guarded automated trading starter.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0"
+  }
+}
